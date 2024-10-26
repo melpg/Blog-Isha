@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+body{
+  /* background: url(https://img.freepik.com/premium-photo/background_1003030-9863.jpg); */
+   /* background: url(https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29mdCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  height: 100%;
+}
+.container-fluid{
+  width: 99%;
+}
+#navbar{
+  position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  
+}
+.navbar-brand #image{
+    display: block; 
+    height: 50px; 
+    width: 52px; 
+    border-radius: 29px; 
+    margin-top: -23px; 
+    margin-bottom: -18px; 
+    border: 1px solid #57ad85;
+}
+.navbar-nav a{
+    font-family: 'Comic Neue', cursive; 
+    color: black; 
+    font-size: larger;
+}
+.navbar-nav a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: darkgray;
+    text-decoration-thickness: 2px;
+}
+.banner {
+    position: relative;
+    text-align: center;
+  }
+.banner .top-left {
+    position: absolute;
+    top: 15px;
+    left: 25%;
+    color: white;
+    font-family: "Sofia", sans-serif;
+    font-size: large;
+    transform: translate(-5%, -5%);
+  }
+.banner .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: x-large;
+    background: antiquewhite;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+  }
+  .page-header{
+    text-align: center;
+    margin: 72px;
+    font-family: 'Comic Neue', cursive;
+    /* color: rgb(168, 37, 140); */
+    color: #04a7a7;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+    /* margin-bottom: 5rem; */
+    padding: 4em;
+    align-items: center;
+    background-image:url(https://i.ibb.co/MPHrvRx/bg-creme-pattern.webp);
+  }
+  .row a{
+    text-decoration: none;
+  }
+  .row   img{
+    width:-webkit-fill-available;
+    border: outset;
+    border-color: silver;
+    padding: 1em;
+    
+  }
+  
+  .row .eventname{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    color: #1CA9C9;
+ }
+ .row .cont{
+    text-align: center;
+ }
+  .row .cont h6{
+    color: #7d8d99;
+    font-style: italic;
+    border-bottom: groove;
+    margin-top: revert;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+  }
+  .row .cont p{
+    font-family: 'Diphylleia';
+    color: #333132;
+  }
+  .row .cont span{
+    color: black;
+    font-size: 35px;
+  }
+  .parallax1 {
+    background-image:url("../../public/images/corp4.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .parallax2 {
+    background-image: url("../../public/images/soc2.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    background-image: url("../../public/images/cer2.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    background-image: url("../../public/images/wed2.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 {
+    background-image:url("../../public/images/brand.webp");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .row1 img{
+    border:3px double;
+    border-color: silver;
+    background-size: cover;
+    width: 100%;
+    height: -webkit-fill-available;
+  }
+  .row1 .bottom{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: #f8f9fa;
+    transform: rotate(-31deg);
+    font-family: 'Dancing Script';
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .about{
+    background: url(https://img.freepik.com/premium-photo/background_1003030-9863.jpg);
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 41px;
+    padding: 44px;
+    border: 12px double;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about span{
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper .swiper-wrapper{
+    height: 333px;
+    background: white;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+
+  .swiper-slide .imgs {
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    /* background-color: whitesmoke; */
+    background-image: url(https://img.freepik.com/free-photo/gray-bokeh-textured-plain-product-background_53876-103992.jpg);
+    padding: 2em;
+    overflow: auto;
+  }
+  .swiper-slide h5{
+    font-family: 'Diphylleia', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline;
+    color: brown;
+  }
+  .swiper-slide p{
+    font-family: 'Dancing Script', cursive;
+    color: chocolate;
+    padding: 13px;
+    font-size: 22px;
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: black !important;  
+}
+.swiper-pagination {
+  color: black !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: black !important; 
+}
+  .footer{
+    display: flex;
+    color: white;
+    padding: 3px;
+    column-gap: 25px;
+    justify-content: space-evenly;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .footer h4{
+    text-align: center;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 22px;
+}
+.wrapper h3{
+  text-align: center;
+  padding: 15px;
+  font-family: Sofia;
+  font-weight: 600;
+  /* text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-position: under; */
+}
+.row4{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  /* margin-left: -15px; */
+  padding: 8px;
+}
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem !important;
+}
+#addImage {
+  display: block;
+ width: fit-content;
+  font-family: Sofia;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 12px;
+  background-color: aliceblue;
+}
+#addImage input{
+  border: 2px solid gray;
+  text-align: center;
+  display: inline;
+  margin: 4px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  padding: 9px;
+}
+.contactForm .label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+    font-family: 'Diphylleia';
+    font-size: large;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+#contactForm .form-control {
+  font-size: 16px;
+  font-family: 'Diphylleia';
+}
+#button{
+  text-align: center;
+}
+#imageDisplay{
+  display: flex;
+ 
+}
+#imageDisplay img{
+  height: 50%;
+  width: 50%;
+}
