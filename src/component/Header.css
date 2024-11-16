@@ -11,6 +11,7 @@ body{
   background-size: cover;
   background-color: white;
   height: 100%;
+  font-family: sans-serif;
 }
 .container-fluid{
   width: 99%;
@@ -32,7 +33,7 @@ body{
     border: 1px solid #57ad85;
 }
 .navbar-nav a{
-    font-family: 'Comic Neue', cursive; 
+    font-family: "sans-serif"; 
     color: black; 
     font-size: larger;
 }
